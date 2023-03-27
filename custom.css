@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Phetsarath_OT';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/phetsarath_ot.eot');
+    src: url('../fonts/phetsarath_ot.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/phetsarath_ot.woff2') format('woff2'),
+    url('../fonts/phetsarath_ot.woff') format('woff'),
+    url('../fonts/phetsarath_ot.ttf') format('truetype'),
+    url('../fonts/phetsarath_ot.svg#Phetsarath_OT') format('svg');
+}
+@font-face {
+    font-family: 'Phetsarath_OT';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../fonts/phetsarath_ot.eot');
+    src: url('../fonts/phetsarath_ot.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/phetsarath_ot.woff2') format('woff2'),
+    url('../fonts/phetsarath_ot.woff') format('woff'),
+    url('../fonts/phetsarath_ot.ttf') format('truetype'),
+    url('../fonts/phetsarath_ot.svg#Phetsarath_OT') format('svg');
+}
+@font-face {
+    font-family: 'Phetsarath_OT';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/phetsarath_ot.eot');
+    src: url('../fonts/phetsarath_ot.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/phetsarath_ot.woff2') format('woff2'),
+    url('../fonts/phetsarath_ot.woff') format('woff'),
+    url('../fonts/phetsarath_ot.ttf') format('truetype'),
+    url('../fonts/phetsarath_ot.svg#Phetsarath_OT') format('svg');
+
+}
+
+* {
+    font-family: "Saysettha OT", 'Phetsarath OT', Phetsarath_OT, 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-size: 14px;*/
+    /*background-color: #FFFFFF;*/
+}
