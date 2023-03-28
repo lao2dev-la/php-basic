@@ -25,7 +25,7 @@ if (!$_SESSION["id"]) {  //check session
         <div class="col-md-12">
           <h3>ລາຍການສະມາຊິກ</h3>
           <a href="formAdd.php" class="btn btn-success">ເພີ່ມຂໍ້ມູນ</a>
-
+          <a href="../B/logout.php" class="btn btn-danger">ອອກລະບົບ</a>
           <table class="table">
             <thead>
               <tr>
@@ -54,7 +54,7 @@ if (!$_SESSION["id"]) {  //check session
                   <td><?= $row['firstname']; ?></td>
                   <td><?= $row['lastname']; ?></td>
                   <td> <a href="./formEdit.php?id=<?= $row['id']; ?>" class="btn btn-warning">ແກ້ໄຂ</a></td>
-                  <td> <a href="delete.php" class="btn btn-danger">ລຶບ</a></td>
+                  <td> <a href="delete.php?id=<?= $row['id']; ?>" class="btn btn-danger" onclick="return confirm('ທ່ານຕ້ອງການລົບຂໍ້ມູນຫຼືບໍ່?');">ລຶບ</a></td>
                 </tr>
               <?php } ?>
             </tbody>

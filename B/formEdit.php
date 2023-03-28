@@ -15,8 +15,6 @@ if(isset($_GET['id'])){
     $stmt = $conn->prepare("SELECT * FROM users WHERE id=?");
     $stmt->execute([$_GET['id']]);
     $row= $stmt->fetch(PDO::FETCH_ASSOC);
-    var_dump($row);
-    exit();
     if($stmt->rowCount()<1){
         header("location:admin_page.php");
         exit();
